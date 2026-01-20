@@ -1,7 +1,7 @@
 FROM eclipse-temurin:25-jdk
 
 ENV SCALA_VERSION=3.8.4
-ENV SBT_VERSION=2.0.6
+ENV SBT_VERSION=2.0.7
 ENV PATH=/root/.local/share/coursier/bin:$PATH
 
 WORKDIR /root
